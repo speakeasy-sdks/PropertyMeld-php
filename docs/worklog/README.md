@@ -1,0 +1,78 @@
+# workLog
+
+### Available Operations
+
+* [workLogList](#workloglist)
+* [workLogRetrieve](#worklogretrieve)
+
+## workLogList
+
+### Example Usage
+
+```php
+<?php
+
+declare(strict_types=1);
+require_once 'vendor/autoload.php';
+
+use \PropertyMeld\MeldAPI\MeldAPI;
+use \PropertyMeld\MeldAPI\Models\Operations\WorkLogListRequest;
+use \PropertyMeld\MeldAPI\Models\Operations\WorkLogListSecurity;
+
+$sdk = MeldAPI::builder()
+    ->build();
+
+try {
+    $request = new WorkLogListRequest();
+    $request->xPmOrg = 491201;
+    $request->limit = 729828;
+    $request->offset = 72350;
+    $request->ordering = 'ab';
+
+    $requestSecurity = new WorkLogListSecurity();
+    $requestSecurity->pmoAuth2Authentication = '';
+
+    $response = $sdk->workLog->workLogList($request, $requestSecurity);
+
+    if ($response->paginatedWorkEntrySerializerListList !== null) {
+        // handle response
+    }
+} catch (Exception $e) {
+    // handle exception
+}
+```
+
+## workLogRetrieve
+
+### Example Usage
+
+```php
+<?php
+
+declare(strict_types=1);
+require_once 'vendor/autoload.php';
+
+use \PropertyMeld\MeldAPI\MeldAPI;
+use \PropertyMeld\MeldAPI\Models\Operations\WorkLogRetrieveRequest;
+use \PropertyMeld\MeldAPI\Models\Operations\WorkLogRetrieveSecurity;
+
+$sdk = MeldAPI::builder()
+    ->build();
+
+try {
+    $request = new WorkLogRetrieveRequest();
+    $request->xPmOrg = 280114;
+    $request->id = 'eeb52ff7-85fc-4378-94d4-c98e0c2bb89e';
+
+    $requestSecurity = new WorkLogRetrieveSecurity();
+    $requestSecurity->pmoAuth2Authentication = '';
+
+    $response = $sdk->workLog->workLogRetrieve($request, $requestSecurity);
+
+    if ($response->workEntrySerializerDetail !== null) {
+        // handle response
+    }
+} catch (Exception $e) {
+    // handle exception
+}
+```
