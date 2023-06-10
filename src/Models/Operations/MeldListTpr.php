@@ -12,6 +12,6 @@ namespace PropertyMeld\MeldAPI\Models\Operations;
 /** tpr */
 enum MeldListTpr: string
 {
-    case FALSE = 'false';
-    case TRUE = 'true';
+    case False = 'false';
+    case True = 'true';
 }

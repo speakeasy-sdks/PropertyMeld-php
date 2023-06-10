@@ -11,9 +11,9 @@ namespace PropertyMeld\MeldAPI\Models\Shared;
 
 enum StatusD0bEnum: string
 {
-    case DRAFT = 'DRAFT';
-    case IN_REVIEW = 'IN_REVIEW';
-    case HOLD = 'HOLD';
-    case APPROVED = 'APPROVED';
-    case BILLED = 'BILLED';
+    case Draft = 'DRAFT';
+    case InReview = 'IN_REVIEW';
+    case Hold = 'HOLD';
+    case Approved = 'APPROVED';
+    case Billed = 'BILLED';
 }

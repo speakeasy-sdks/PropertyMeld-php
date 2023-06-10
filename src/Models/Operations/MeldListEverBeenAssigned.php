@@ -12,6 +12,6 @@ namespace PropertyMeld\MeldAPI\Models\Operations;
 /** ever_been_assigned */
 enum MeldListEverBeenAssigned: string
 {
-    case TRUE = 'true';
-    case FALSE = 'false';
+    case True = 'true';
+    case False = 'false';
 }

@@ -79,7 +79,7 @@ class BasePayment
 		$this->createBy = null;
 		$this->created = new \DateTime();
 		$this->id = 0;
-		$this->method = \PropertyMeld\MeldAPI\Models\Shared\MethodEnum::CASH;
+		$this->method = \PropertyMeld\MeldAPI\Models\Shared\MethodEnum::Cash;
 		$this->notes = null;
 		$this->stripeChargeId = null;
 		$this->updateBy = null;

@@ -1,0 +1,18 @@
+# PmAPIProjectDetail
+
+
+## Fields
+
+| Field                                                            | Type                                                             | Required                                                         | Description                                                      |
+| ---------------------------------------------------------------- | ---------------------------------------------------------------- | ---------------------------------------------------------------- | ---------------------------------------------------------------- |
+| `coordinators`                                                   | array<[ManagementAgent](../../models/shared/ManagementAgent.md)> | :heavy_check_mark:                                               | N/A                                                              |
+| `created`                                                        | [\DateTime](https://www.php.net/manual/en/class.datetime.php)    | :heavy_check_mark:                                               | N/A                                                              |
+| `description`                                                    | *?string*                                                        | :heavy_minus_sign:                                               | N/A                                                              |
+| `dueDate`                                                        | [\DateTime](https://www.php.net/manual/en/class.datetime.php)    | :heavy_check_mark:                                               | N/A                                                              |
+| `id`                                                             | *int*                                                            | :heavy_check_mark:                                               | N/A                                                              |
+| `melds`                                                          | array<*int*>                                                     | :heavy_check_mark:                                               | N/A                                                              |
+| `name`                                                           | *string*                                                         | :heavy_check_mark:                                               | N/A                                                              |
+| `projectType`                                                    | [?ProjectTypeEnum](../../models/shared/ProjectTypeEnum.md)       | :heavy_minus_sign:                                               | N/A                                                              |
+| `startDate`                                                      | [\DateTime](https://www.php.net/manual/en/class.datetime.php)    | :heavy_check_mark:                                               | N/A                                                              |
+| `unit`                                                           | [?PmAPIUnit](../../models/shared/PmAPIUnit.md)                   | :heavy_minus_sign:                                               | N/A                                                              |
+| `updated`                                                        | [\DateTime](https://www.php.net/manual/en/class.datetime.php)    | :heavy_check_mark:                                               | N/A                                                              |

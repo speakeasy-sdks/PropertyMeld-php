@@ -11,9 +11,9 @@ namespace PropertyMeld\MeldAPI\Models\Operations;
 
 enum ExpenditureListStatus: string
 {
-    case APPROVED = 'APPROVED';
-    case BILLED = 'BILLED';
-    case DRAFT = 'DRAFT';
-    case HOLD = 'HOLD';
-    case IN_REVIEW = 'IN_REVIEW';
+    case Approved = 'APPROVED';
+    case Billed = 'BILLED';
+    case Draft = 'DRAFT';
+    case Hold = 'HOLD';
+    case InReview = 'IN_REVIEW';
 }

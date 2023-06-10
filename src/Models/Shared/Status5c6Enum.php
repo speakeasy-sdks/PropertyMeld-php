@@ -11,17 +11,17 @@ namespace PropertyMeld\MeldAPI\Models\Shared;
 
 enum Status5c6Enum: string
 {
-    case OPEN = 'OPEN';
-    case MANAGER_CANCELED = 'MANAGER_CANCELED';
-    case TENANT_CANCELED = 'TENANT_CANCELED';
-    case PENDING_ESTIMATES = 'PENDING_ESTIMATES';
-    case PENDING_TENANT_AVAILABILITY = 'PENDING_TENANT_AVAILABILITY';
-    case PENDING_MORE_VENDOR_AVAILABILITY = 'PENDING_MORE_VENDOR_AVAILABILITY';
-    case PENDING_MORE_MANAGEMENT_AVAILABILITY = 'PENDING_MORE_MANAGEMENT_AVAILABILITY';
-    case PENDING_COMPLETION = 'PENDING_COMPLETION';
-    case COMPLETED = 'COMPLETED';
-    case VENDOR_COULD_NOT_COMPLETE = 'VENDOR_COULD_NOT_COMPLETE';
-    case MAINTENANCE_COULD_NOT_COMPLETE = 'MAINTENANCE_COULD_NOT_COMPLETE';
-    case PENDING_VENDOR = 'PENDING_VENDOR';
-    case PENDING_ASSIGNMENT = 'PENDING_ASSIGNMENT';
+    case Open = 'OPEN';
+    case ManagerCanceled = 'MANAGER_CANCELED';
+    case TenantCanceled = 'TENANT_CANCELED';
+    case PendingEstimates = 'PENDING_ESTIMATES';
+    case PendingTenantAvailability = 'PENDING_TENANT_AVAILABILITY';
+    case PendingMoreVendorAvailability = 'PENDING_MORE_VENDOR_AVAILABILITY';
+    case PendingMoreManagementAvailability = 'PENDING_MORE_MANAGEMENT_AVAILABILITY';
+    case PendingCompletion = 'PENDING_COMPLETION';
+    case Completed = 'COMPLETED';
+    case VendorCouldNotComplete = 'VENDOR_COULD_NOT_COMPLETE';
+    case MaintenanceCouldNotComplete = 'MAINTENANCE_COULD_NOT_COMPLETE';
+    case PendingVendor = 'PENDING_VENDOR';
+    case PendingAssignment = 'PENDING_ASSIGNMENT';
 }

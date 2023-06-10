@@ -11,5 +11,5 @@ namespace PropertyMeld\MeldAPI\Models\Shared;
 
 enum BlankEnum: string
 {
-    case UNKNOWN = '';
+    case Unknown = '';
 }

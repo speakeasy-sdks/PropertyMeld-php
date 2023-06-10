@@ -11,5 +11,5 @@ namespace PropertyMeld\MeldAPI\Models\Shared;
 
 enum NullEnum: string
 {
-    case LESS_THAN_NIL_GREATER_THAN = '<nil>';
+    case LessThanNilGreaterThan = '<nil>';
 }

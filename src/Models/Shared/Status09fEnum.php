@@ -11,11 +11,11 @@ namespace PropertyMeld\MeldAPI\Models\Shared;
 
 enum Status09fEnum: string
 {
-    case DRAFT = 'DRAFT';
-    case SUBMITTED = 'SUBMITTED';
-    case IN_REVIEW = 'IN_REVIEW';
-    case HOLD = 'HOLD';
-    case DECLINED = 'DECLINED';
-    case APPROVED = 'APPROVED';
-    case PAID = 'PAID';
+    case Draft = 'DRAFT';
+    case Submitted = 'SUBMITTED';
+    case InReview = 'IN_REVIEW';
+    case Hold = 'HOLD';
+    case Declined = 'DECLINED';
+    case Approved = 'APPROVED';
+    case Paid = 'PAID';
 }

@@ -12,6 +12,6 @@ namespace PropertyMeld\MeldAPI\Models\Operations;
 /** has_estimates */
 enum MeldListHasEstimates: string
 {
-    case FALSE = 'false';
-    case TRUE = 'true';
+    case False = 'false';
+    case True = 'true';
 }

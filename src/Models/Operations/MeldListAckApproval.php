@@ -12,6 +12,6 @@ namespace PropertyMeld\MeldAPI\Models\Operations;
 /** ack_approval */
 enum MeldListAckApproval: string
 {
-    case TRUE = 'true';
-    case FALSE = 'false';
+    case True = 'true';
+    case False = 'false';
 }

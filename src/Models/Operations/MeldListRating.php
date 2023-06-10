@@ -12,9 +12,9 @@ namespace PropertyMeld\MeldAPI\Models\Operations;
 /** rating */
 enum MeldListRating: string
 {
-    case ONE = '1';
-    case TWO = '2';
-    case THREE = '3';
-    case FOUR = '4';
-    case FIVE = '5';
+    case One = '1';
+    case Two = '2';
+    case Three = '3';
+    case Four = '4';
+    case Five = '5';
 }

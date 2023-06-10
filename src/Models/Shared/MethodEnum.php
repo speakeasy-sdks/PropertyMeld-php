@@ -11,8 +11,8 @@ namespace PropertyMeld\MeldAPI\Models\Shared;
 
 enum MethodEnum: string
 {
-    case CASH = 'CASH';
-    case ACH = 'ACH';
-    case CHECK = 'CHECK';
-    case CC = 'CC';
+    case Cash = 'CASH';
+    case Ach = 'ACH';
+    case Check = 'CHECK';
+    case Cc = 'CC';
 }

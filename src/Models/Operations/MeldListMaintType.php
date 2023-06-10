@@ -12,6 +12,6 @@ namespace PropertyMeld\MeldAPI\Models\Operations;
 /** maint_type */
 enum MeldListMaintType: string
 {
-    case ONE = '1';
-    case TWO = '2';
+    case One = '1';
+    case Two = '2';
 }

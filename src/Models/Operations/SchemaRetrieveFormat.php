@@ -13,6 +13,6 @@ namespace PropertyMeld\MeldAPI\Models\Operations;
  */
 enum SchemaRetrieveFormat: string
 {
-    case JSON = 'json';
-    case YAML = 'yaml';
+    case Json = 'json';
+    case Yaml = 'yaml';
 }

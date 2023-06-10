@@ -1,0 +1,23 @@
+# BaseEvent
+
+
+## Fields
+
+| Field                                                         | Type                                                          | Required                                                      | Description                                                   |
+| ------------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------- |
+| `classification`                                              | *mixed*                                                       | :heavy_minus_sign:                                            | N/A                                                           |
+| `createBy`                                                    | array<string, *mixed*>                                        | :heavy_minus_sign:                                            | N/A                                                           |
+| `created`                                                     | [\DateTime](https://www.php.net/manual/en/class.datetime.php) | :heavy_check_mark:                                            | N/A                                                           |
+| `description`                                                 | *?string*                                                     | :heavy_minus_sign:                                            | N/A                                                           |
+| `dtend`                                                       | [\DateTime](https://www.php.net/manual/en/class.datetime.php) | :heavy_minus_sign:                                            | N/A                                                           |
+| `dtstart`                                                     | [\DateTime](https://www.php.net/manual/en/class.datetime.php) | :heavy_check_mark:                                            | N/A                                                           |
+| `durDay`                                                      | *?int*                                                        | :heavy_minus_sign:                                            | N/A                                                           |
+| `durWeek`                                                     | *?int*                                                        | :heavy_minus_sign:                                            | N/A                                                           |
+| `duration`                                                    | *?int*                                                        | :heavy_minus_sign:                                            | N/A                                                           |
+| `id`                                                          | *int*                                                         | :heavy_check_mark:                                            | N/A                                                           |
+| `latitude`                                                    | *?string*                                                     | :heavy_minus_sign:                                            | N/A                                                           |
+| `longitude`                                                   | *?string*                                                     | :heavy_minus_sign:                                            | N/A                                                           |
+| `organizer`                                                   | *?string*                                                     | :heavy_minus_sign:                                            | N/A                                                           |
+| `rrule`                                                       | *?int*                                                        | :heavy_minus_sign:                                            | N/A                                                           |
+| `updateBy`                                                    | array<string, *mixed*>                                        | :heavy_minus_sign:                                            | N/A                                                           |
+| `updated`                                                     | [\DateTime](https://www.php.net/manual/en/class.datetime.php) | :heavy_check_mark:                                            | N/A                                                           |

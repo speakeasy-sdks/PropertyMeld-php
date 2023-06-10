@@ -12,6 +12,6 @@ namespace PropertyMeld\MeldAPI\Models\Operations;
 /** exp */
 enum MeldListExp: string
 {
-    case TRUE = 'true';
-    case FALSE = 'false';
+    case True = 'true';
+    case False = 'false';
 }

@@ -11,7 +11,7 @@ namespace PropertyMeld\MeldAPI\Models\Shared;
 
 enum ClassificationEnum: string
 {
-    case PUBLIC = 'PUBLIC';
-    case PRIVATE = 'PRIVATE';
-    case CONFIDENTIAL = 'CONFIDENTIAL';
+    case Public = 'PUBLIC';
+    case Private = 'PRIVATE';
+    case Confidential = 'CONFIDENTIAL';
 }

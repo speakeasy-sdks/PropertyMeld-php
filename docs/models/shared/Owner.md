@@ -1,0 +1,19 @@
+# Owner
+
+
+## Fields
+
+| Field                                                            | Type                                                             | Required                                                         | Description                                                      |
+| ---------------------------------------------------------------- | ---------------------------------------------------------------- | ---------------------------------------------------------------- | ---------------------------------------------------------------- |
+| `address`                                                        | [?Address](../../models/shared/Address.md)                       | :heavy_minus_sign:                                               | N/A                                                              |
+| `contact`                                                        | [?Contact](../../models/shared/Contact.md)                       | :heavy_minus_sign:                                               | N/A                                                              |
+| `created`                                                        | [\DateTime](https://www.php.net/manual/en/class.datetime.php)    | :heavy_check_mark:                                               | N/A                                                              |
+| `email`                                                          | *string*                                                         | :heavy_check_mark:                                               | N/A                                                              |
+| `firstName`                                                      | *string*                                                         | :heavy_check_mark:                                               | N/A                                                              |
+| `hubAccessLevel`                                                 | [?HubAccessLevelEnum](../../models/shared/HubAccessLevelEnum.md) | :heavy_minus_sign:                                               | N/A                                                              |
+| `id`                                                             | *int*                                                            | :heavy_check_mark:                                               | N/A                                                              |
+| `invitedToHub`                                                   | *?bool*                                                          | :heavy_minus_sign:                                               | N/A                                                              |
+| `isActive`                                                       | *bool*                                                           | :heavy_check_mark:                                               | N/A                                                              |
+| `lastName`                                                       | *string*                                                         | :heavy_check_mark:                                               | N/A                                                              |
+| `properties`                                                     | array<*int*>                                                     | :heavy_minus_sign:                                               | N/A                                                              |
+| `updated`                                                        | [\DateTime](https://www.php.net/manual/en/class.datetime.php)    | :heavy_check_mark:                                               | N/A                                                              |

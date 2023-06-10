@@ -12,7 +12,7 @@ namespace PropertyMeld\MeldAPI\Models\Operations;
 /** priority */
 enum MeldListPriority: string
 {
-    case LOW = 'LOW';
-    case MEDIUM = 'MEDIUM';
-    case HIGH = 'HIGH';
+    case Low = 'LOW';
+    case Medium = 'MEDIUM';
+    case High = 'HIGH';
 }

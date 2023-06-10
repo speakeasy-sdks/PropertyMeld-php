@@ -1,0 +1,17 @@
+# Vendor
+
+
+## Fields
+
+| Field                                                            | Type                                                             | Required                                                         | Description                                                      |
+| ---------------------------------------------------------------- | ---------------------------------------------------------------- | ---------------------------------------------------------------- | ---------------------------------------------------------------- |
+| `address`                                                        | [Address](../../models/shared/Address.md)                        | :heavy_check_mark:                                               | N/A                                                              |
+| `created`                                                        | [\DateTime](https://www.php.net/manual/en/class.datetime.php)    | :heavy_check_mark:                                               | N/A                                                              |
+| `email`                                                          | *?string*                                                        | :heavy_minus_sign:                                               | N/A                                                              |
+| `excludedPropertyGroups`                                         | array<*int*>                                                     | :heavy_check_mark:                                               | N/A                                                              |
+| `fax`                                                            | *?string*                                                        | :heavy_minus_sign:                                               | Home phone number. Must be in E.164 format, e.g. '+14155552671'. |
+| `id`                                                             | *int*                                                            | :heavy_check_mark:                                               | N/A                                                              |
+| `isActive`                                                       | *bool*                                                           | :heavy_check_mark:                                               | N/A                                                              |
+| `name`                                                           | *?string*                                                        | :heavy_minus_sign:                                               | N/A                                                              |
+| `phone`                                                          | *?string*                                                        | :heavy_minus_sign:                                               | Home phone number. Must be in E.164 format, e.g. '+14155552671'. |
+| `updated`                                                        | [\DateTime](https://www.php.net/manual/en/class.datetime.php)    | :heavy_check_mark:                                               | N/A                                                              |

@@ -12,8 +12,8 @@ namespace PropertyMeld\MeldAPI\Models\Operations;
 /** due_date_choice */
 enum MeldListDueDateChoice: string
 {
-    case OVERDUE = 'overdue';
-    case TODAY = 'today';
-    case TOMORROW = 'tomorrow';
-    case WEEK = 'week';
+    case Overdue = 'overdue';
+    case Today = 'today';
+    case Tomorrow = 'tomorrow';
+    case Week = 'week';
 }

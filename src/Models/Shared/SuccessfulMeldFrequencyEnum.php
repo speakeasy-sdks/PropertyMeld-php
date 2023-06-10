@@ -11,7 +11,7 @@ namespace PropertyMeld\MeldAPI\Models\Shared;
 
 enum SuccessfulMeldFrequencyEnum: string
 {
-    case IMMEDIATELY = 'IMMEDIATELY';
-    case DAILY = 'DAILY';
-    case NEVER = 'NEVER';
+    case Immediately = 'IMMEDIATELY';
+    case Daily = 'DAILY';
+    case Never = 'NEVER';
 }

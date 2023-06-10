@@ -12,6 +12,6 @@ namespace PropertyMeld\MeldAPI\Models\Operations;
 /** paid */
 enum InvoiceListPaid: string
 {
-    case FALSE = 'false';
-    case TRUE = 'true';
+    case False = 'false';
+    case True = 'true';
 }

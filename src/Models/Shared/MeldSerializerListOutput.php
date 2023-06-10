@@ -405,7 +405,7 @@ class MeldSerializerListOutput
 		$this->vendorAssignmentRequests = null;
 		$this->vendorCloser = new \PropertyMeld\MeldAPI\Models\Shared\MeldSerializerListVendorCloser();
 		$this->vendorappointment = new \PropertyMeld\MeldAPI\Models\Shared\MeldSerializerListVendorappointment();
-		$this->workCategory = \PropertyMeld\MeldAPI\Models\Shared\WorkCategoryEnum::FOR_RENT_SIGN;
+		$this->workCategory = \PropertyMeld\MeldAPI\Models\Shared\WorkCategoryEnum::ForRentSign;
 		$this->workLocation = "";
 	}
 }

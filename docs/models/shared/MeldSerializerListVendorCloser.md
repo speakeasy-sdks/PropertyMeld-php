@@ -1,0 +1,20 @@
+# MeldSerializerListVendorCloser
+
+
+## Fields
+
+| Field                                                         | Type                                                          | Required                                                      | Description                                                   |
+| ------------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------- |
+| `address`                                                     | *int*                                                         | :heavy_check_mark:                                            | N/A                                                           |
+| `createBy`                                                    | array<string, *mixed*>                                        | :heavy_minus_sign:                                            | N/A                                                           |
+| `created`                                                     | [\DateTime](https://www.php.net/manual/en/class.datetime.php) | :heavy_check_mark:                                            | N/A                                                           |
+| `email`                                                       | *?string*                                                     | :heavy_minus_sign:                                            | N/A                                                           |
+| `excludedPropertyGroups`                                      | array<*int*>                                                  | :heavy_check_mark:                                            | N/A                                                           |
+| `fax`                                                         | *?string*                                                     | :heavy_minus_sign:                                            | N/A                                                           |
+| `id`                                                          | *int*                                                         | :heavy_check_mark:                                            | N/A                                                           |
+| `isActive`                                                    | *?bool*                                                       | :heavy_minus_sign:                                            | N/A                                                           |
+| `managements`                                                 | array<*int*>                                                  | :heavy_check_mark:                                            | N/A                                                           |
+| `name`                                                        | *?string*                                                     | :heavy_minus_sign:                                            | N/A                                                           |
+| `phone`                                                       | *?string*                                                     | :heavy_minus_sign:                                            | N/A                                                           |
+| `updateBy`                                                    | array<string, *mixed*>                                        | :heavy_minus_sign:                                            | N/A                                                           |
+| `updated`                                                     | [\DateTime](https://www.php.net/manual/en/class.datetime.php) | :heavy_check_mark:                                            | N/A                                                           |

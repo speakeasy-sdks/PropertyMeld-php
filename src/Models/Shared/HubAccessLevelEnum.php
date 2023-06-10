@@ -11,8 +11,8 @@ namespace PropertyMeld\MeldAPI\Models\Shared;
 
 enum HubAccessLevelEnum: string
 {
-    case DIRECT_ONLY = 'DIRECT_ONLY';
-    case ALL_NOTIFICATIONS = 'ALL_NOTIFICATIONS';
-    case INVITED_TO_HUB = 'INVITED_TO_HUB';
-    case HUB_ACCESS = 'HUB_ACCESS';
+    case DirectOnly = 'DIRECT_ONLY';
+    case AllNotifications = 'ALL_NOTIFICATIONS';
+    case InvitedToHub = 'INVITED_TO_HUB';
+    case HubAccess = 'HUB_ACCESS';
 }

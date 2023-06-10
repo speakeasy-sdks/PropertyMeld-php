@@ -11,12 +11,12 @@ namespace PropertyMeld\MeldAPI\Models\Shared;
 
 enum EstimateStatusEnum: string
 {
-    case ESTIMATE_PENDING_ACCEPTANCE = 'ESTIMATE_PENDING_ACCEPTANCE';
-    case ESTIMATE_IN_PROGRESS = 'ESTIMATE_IN_PROGRESS';
-    case ESTIMATE_SUBMITTED = 'ESTIMATE_SUBMITTED';
-    case ESTIMATE_VENDOR_REJECTED = 'ESTIMATE_VENDOR_REJECTED';
-    case ESTIMATE_OWNER_REJECTED = 'ESTIMATE_OWNER_REJECTED';
-    case ESTIMATE_CLOSED = 'ESTIMATE_CLOSED';
-    case ESTIMATE_PENDING_APPROVAL = 'ESTIMATE_PENDING_APPROVAL';
-    case ESTIMATE_APPROVED = 'ESTIMATE_APPROVED';
+    case EstimatePendingAcceptance = 'ESTIMATE_PENDING_ACCEPTANCE';
+    case EstimateInProgress = 'ESTIMATE_IN_PROGRESS';
+    case EstimateSubmitted = 'ESTIMATE_SUBMITTED';
+    case EstimateVendorRejected = 'ESTIMATE_VENDOR_REJECTED';
+    case EstimateOwnerRejected = 'ESTIMATE_OWNER_REJECTED';
+    case EstimateClosed = 'ESTIMATE_CLOSED';
+    case EstimatePendingApproval = 'ESTIMATE_PENDING_APPROVAL';
+    case EstimateApproved = 'ESTIMATE_APPROVED';
 }

@@ -12,6 +12,6 @@ namespace PropertyMeld\MeldAPI\Models\Operations;
 /** Ordering */
 enum MeldListOrderBy: string
 {
-    case OWNER_APPROVAL_REQUEST_DATE = 'owner_approval_request_date';
-    case MINUS_OWNER_APPROVAL_REQUEST_DATE = '-owner_approval_request_date';
+    case OwnerApprovalRequestDate = 'owner_approval_request_date';
+    case MinusOwnerApprovalRequestDate = '-owner_approval_request_date';
 }

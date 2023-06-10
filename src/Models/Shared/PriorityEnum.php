@@ -11,7 +11,7 @@ namespace PropertyMeld\MeldAPI\Models\Shared;
 
 enum PriorityEnum: string
 {
-    case LOW = 'LOW';
-    case MEDIUM = 'MEDIUM';
-    case HIGH = 'HIGH';
+    case Low = 'LOW';
+    case Medium = 'MEDIUM';
+    case High = 'HIGH';
 }

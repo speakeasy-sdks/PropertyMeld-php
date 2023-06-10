@@ -12,6 +12,6 @@ namespace PropertyMeld\MeldAPI\Models\Operations;
 /** project_assigned */
 enum MeldListProjectAssigned: string
 {
-    case TRUE = 'true';
-    case FALSE = 'false';
+    case True = 'true';
+    case False = 'false';
 }

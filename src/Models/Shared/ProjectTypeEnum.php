@@ -11,8 +11,8 @@ namespace PropertyMeld\MeldAPI\Models\Shared;
 
 enum ProjectTypeEnum: string
 {
-    case OTHER = 'OTHER';
-    case RENOVATION = 'RENOVATION';
-    case TURN = 'TURN';
-    case MITIGATION = 'MITIGATION';
+    case Other = 'OTHER';
+    case Renovation = 'RENOVATION';
+    case Turn = 'TURN';
+    case Mitigation = 'MITIGATION';
 }

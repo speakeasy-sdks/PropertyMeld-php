@@ -11,9 +11,9 @@ namespace PropertyMeld\MeldAPI\Models\Shared;
 
 enum OwnerApprovalStatusEnum: string
 {
-    case OWNER_APPROVAL_NOT_REQUESTED = 'OWNER_APPROVAL_NOT_REQUESTED';
-    case OWNER_APPROVAL_REQUESTED = 'OWNER_APPROVAL_REQUESTED';
-    case OWNER_APPROVAL_APPROVED = 'OWNER_APPROVAL_APPROVED';
-    case OWNER_APPROVAL_NOT_APPROVED = 'OWNER_APPROVAL_NOT_APPROVED';
-    case OWNER_APPROVAL_REQUESTED_ESTIMATES = 'OWNER_APPROVAL_REQUESTED_ESTIMATES';
+    case OwnerApprovalNotRequested = 'OWNER_APPROVAL_NOT_REQUESTED';
+    case OwnerApprovalRequested = 'OWNER_APPROVAL_REQUESTED';
+    case OwnerApprovalApproved = 'OWNER_APPROVAL_APPROVED';
+    case OwnerApprovalNotApproved = 'OWNER_APPROVAL_NOT_APPROVED';
+    case OwnerApprovalRequestedEstimates = 'OWNER_APPROVAL_REQUESTED_ESTIMATES';
 }

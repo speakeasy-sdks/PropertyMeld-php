@@ -267,7 +267,7 @@ class MeldExpendituresListMeld
 		$this->unit = new \PropertyMeld\MeldAPI\Models\Shared\MeldExpendituresListUnit();
 		$this->updated = new \DateTime();
 		$this->vendorCloser = null;
-		$this->workCategory = \PropertyMeld\MeldAPI\Models\Shared\WorkCategoryEnum::FOR_RENT_SIGN;
+		$this->workCategory = \PropertyMeld\MeldAPI\Models\Shared\WorkCategoryEnum::ForRentSign;
 		$this->workLocation = "";
 	}
 }
